@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="5" failed="6" skipped="0">
+<testng-results ignored="0" total="12" passed="6" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-29T14:26:34 EET" name="Suite1" finished-at="2024-03-29T14:32:04 EET" duration-ms="330027">
+  <suite started-at="2024-04-02T11:43:44 EEST" name="Suite1" finished-at="2024-04-02T11:49:19 EEST" duration-ms="334677">
     <groups>
     </groups>
-    <test started-at="2024-03-29T14:26:34 EET" name="Test1" finished-at="2024-03-29T14:32:04 EET" duration-ms="330027">
+    <test started-at="2024-04-02T11:43:44 EEST" name="Test1" finished-at="2024-04-02T11:49:19 EEST" duration-ms="334677">
       <class name="FooterTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:34 EET" name="setUp" finished-at="2024-03-29T14:26:43 EET" duration-ms="9126" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:43:45 EEST" name="setUp" finished-at="2024-04-02T11:43:52 EEST" duration-ms="7531" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isEnabledPrivatePolicyTest()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:43 EET" name="isEnabledPrivatePolicyTest" finished-at="2024-03-29T14:26:43 EET" duration-ms="145" status="PASS">
+        <test-method signature="isEnabledPrivatePolicyTest()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:43:52 EEST" name="isEnabledPrivatePolicyTest" finished-at="2024-04-02T11:43:53 EEST" duration-ms="202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isEnabledPrivatePolicyTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:43 EET" name="tearDown" finished-at="2024-03-29T14:26:43 EET" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:43:53 EEST" name="tearDown" finished-at="2024-04-02T11:43:53 EEST" duration-ms="352" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:43 EET" name="setUp" finished-at="2024-03-29T14:26:47 EET" duration-ms="3457" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:43:53 EEST" name="setUp" finished-at="2024-04-02T11:43:56 EEST" duration-ms="3582" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isEnabledSiteMapTest()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:47 EET" name="isEnabledSiteMapTest" finished-at="2024-03-29T14:26:47 EET" duration-ms="89" status="FAIL">
+        <test-method signature="isEnabledSiteMapTest()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:43:56 EEST" name="isEnabledSiteMapTest" finished-at="2024-04-02T11:43:57 EEST" duration-ms="97" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Site map link is not found]]>
@@ -48,14 +48,14 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'sitemap') or contains(text(),'Сайтмап') or contains(text(),'Sitemap')]"}
-  (Session info: chrome=123.0.6312.59)
+  (Session info: chrome=123.0.6312.86)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5a1f38b50b548e26be0955b12ab9eecd, findElement {using=xpath, value=//a[contains(@href,'sitemap') or contains(text(),'Сайтмап') or contains(text(),'Sitemap')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Aguka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49436/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5a1f38b50b548e26be0955b12ab9eecd
+Command: [04112621a076993ae30b9ddc539b8e50, findElement {using=xpath, value=//a[contains(@href,'sitemap') or contains(text(),'Сайтмап') or contains(text(),'Sitemap')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Aguka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51456/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04112621a076993ae30b9ddc539b8e50
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -83,15 +83,15 @@ at pages.FooterPage.isEnabledSiteMap(FooterPage.java:53)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isEnabledSiteMapTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:47 EET" name="tearDown" finished-at="2024-03-29T14:26:47 EET" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:43:57 EEST" name="tearDown" finished-at="2024-04-02T11:43:57 EEST" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:47 EET" name="setUp" finished-at="2024-03-29T14:26:51 EET" duration-ms="3711" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:43:57 EEST" name="setUp" finished-at="2024-04-02T11:44:01 EEST" duration-ms="3652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isEnabledTermsAndConditionsTest()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:51 EET" name="isEnabledTermsAndConditionsTest" finished-at="2024-03-29T14:26:51 EET" duration-ms="36" status="FAIL">
+        <test-method signature="isEnabledTermsAndConditionsTest()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:44:01 EEST" name="isEnabledTermsAndConditionsTest" finished-at="2024-04-02T11:44:01 EEST" duration-ms="50" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Terms and conditions link is not found]]>
@@ -116,14 +116,14 @@ at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecuto
 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'terms-of-service') or contains(text(),'Умови користування веб-сайтом') or contains(text(),'Terms of Service')]"}
-  (Session info: chrome=123.0.6312.59)
+  (Session info: chrome=123.0.6312.86)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d450bffb90db36bd890e813feab38b95, findElement {using=xpath, value=//a[contains(@href,'terms-of-service') or contains(text(),'Умови користування веб-сайтом') or contains(text(),'Terms of Service')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Aguka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49464/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d450bffb90db36bd890e813feab38b95
+Command: [4593f3d5df4890b2780f061f768682b0, findElement {using=xpath, value=//a[contains(@href,'terms-of-service') or contains(text(),'Умови користування веб-сайтом') or contains(text(),'Terms of Service')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Aguka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51483}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51483/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4593f3d5df4890b2780f061f768682b0
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -151,29 +151,29 @@ at pages.FooterPage.isEnabledTermsAndConditions(FooterPage.java:44)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isEnabledTermsAndConditionsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:51 EET" name="tearDown" finished-at="2024-03-29T14:26:51 EET" duration-ms="186" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:44:01 EEST" name="tearDown" finished-at="2024-04-02T11:44:01 EEST" duration-ms="151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:51 EET" name="setUp" finished-at="2024-03-29T14:26:59 EET" duration-ms="8603" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:44:01 EEST" name="setUp" finished-at="2024-04-02T11:44:04 EEST" duration-ms="3605" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isPresentSearchInputOnHomePageTest()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:59 EET" name="isPresentSearchInputOnHomePageTest" finished-at="2024-03-29T14:26:59 EET" duration-ms="63" status="PASS">
+        <test-method signature="isPresentSearchInputOnHomePageTest()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:44:04 EEST" name="isPresentSearchInputOnHomePageTest" finished-at="2024-04-02T11:44:04 EEST" duration-ms="61" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPresentSearchInputOnHomePageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FooterTest@27b000f7]" started-at="2024-03-29T14:26:59 EET" name="tearDown" finished-at="2024-03-29T14:27:00 EET" duration-ms="142" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FooterTest@2ab2710]" started-at="2024-04-02T11:44:04 EEST" name="tearDown" finished-at="2024-04-02T11:44:05 EEST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- FooterTest -->
       <class name="FirstTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:26:34 EET" name="setUp" finished-at="2024-03-29T14:26:42 EET" duration-ms="8603" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:43:45 EEST" name="setUp" finished-at="2024-04-02T11:43:53 EEST" duration-ms="8649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkH1ShouldBeOneTest()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:26:42 EET" name="checkH1ShouldBeOneTest" finished-at="2024-03-29T14:29:10 EET" duration-ms="147614" status="FAIL">
+        <test-method signature="checkH1ShouldBeOneTest()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:43:53 EEST" name="checkH1ShouldBeOneTest" finished-at="2024-04-02T11:46:24 EEST" duration-ms="150864" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -194,7 +194,7 @@ at pages.FooterPage.isEnabledTermsAndConditions(FooterPage.java:44)
 Кількість тегів <h1> на сторінці https://piddubnyi.devocean.pro/blog не дорівнює одному expected [1] but found [0]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at FirstTest.checkH1ShouldBeOneTest(FirstTest.java:37)
+at FirstTest.checkH1ShouldBeOneTest(FirstTest.java:38)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -216,39 +216,39 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkH1ShouldBeOneTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:10 EET" name="tearDown" finished-at="2024-03-29T14:29:10 EET" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:24 EEST" name="tearDown" finished-at="2024-04-02T11:46:24 EEST" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:10 EET" name="setUp" finished-at="2024-03-29T14:29:13 EET" duration-ms="3028" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:24 EEST" name="setUp" finished-at="2024-04-02T11:46:28 EEST" duration-ms="3391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkShouldNotHaveHorizontalScrollbar()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:13 EET" name="checkShouldNotHaveHorizontalScrollbar" finished-at="2024-03-29T14:29:13 EET" duration-ms="18" status="PASS">
+        <test-method signature="checkShouldNotHaveHorizontalScrollbar()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:28 EEST" name="checkShouldNotHaveHorizontalScrollbar" finished-at="2024-04-02T11:46:28 EEST" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkShouldNotHaveHorizontalScrollbar -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:13 EET" name="tearDown" finished-at="2024-03-29T14:29:13 EET" duration-ms="181" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:28 EEST" name="tearDown" finished-at="2024-04-02T11:46:28 EEST" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:13 EET" name="setUp" finished-at="2024-03-29T14:29:16 EET" duration-ms="2970" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:28 EEST" name="setUp" finished-at="2024-04-02T11:46:31 EEST" duration-ms="3079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="getAllUrl()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:16 EET" name="getAllUrl" finished-at="2024-03-29T14:29:19 EET" duration-ms="2856" status="PASS">
+        <test-method signature="getAllUrl()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:31 EEST" name="getAllUrl" finished-at="2024-04-02T11:46:34 EEST" duration-ms="2978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAllUrl -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:19 EET" name="tearDown" finished-at="2024-03-29T14:29:19 EET" duration-ms="165" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:34 EEST" name="tearDown" finished-at="2024-04-02T11:46:34 EEST" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:19 EET" name="setUp" finished-at="2024-03-29T14:29:22 EET" duration-ms="2962" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:34 EEST" name="setUp" finished-at="2024-04-02T11:46:37 EEST" duration-ms="3007" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isPresentContactUsPage()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:22 EET" name="isPresentContactUsPage" finished-at="2024-03-29T14:29:25 EET" duration-ms="2751" status="FAIL">
+        <test-method signature="isPresentContactUsPage()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:37 EEST" name="isPresentContactUsPage" finished-at="2024-04-02T11:46:39 EEST" duration-ms="2136" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [vhvhj] but found [КОНТАКТИ]]]>
@@ -261,7 +261,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:149)
 at org.testng.Assert.assertEquals(Assert.java:131)
 at org.testng.Assert.assertEquals(Assert.java:655)
 at org.testng.Assert.assertEquals(Assert.java:665)
-at FirstTest.isPresentContactUsPage(FirstTest.java:69)
+at FirstTest.isPresentContactUsPage(FirstTest.java:70)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -283,15 +283,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPresentContactUsPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:25 EET" name="tearDown" finished-at="2024-03-29T14:29:25 EET" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:39 EEST" name="tearDown" finished-at="2024-04-02T11:46:39 EEST" duration-ms="160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:25 EET" name="setUp" finished-at="2024-03-29T14:29:28 EET" duration-ms="3004" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:39 EEST" name="setUp" finished-at="2024-04-02T11:46:42 EEST" duration-ms="2951" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isPresentLorenIpsonTest()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:29:28 EET" name="isPresentLorenIpsonTest" finished-at="2024-03-29T14:31:53 EET" duration-ms="144339" status="FAIL">
+        <test-method signature="isPresentLorenIpsonTest()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:46:42 EEST" name="isPresentLorenIpsonTest" finished-at="2024-04-02T11:49:08 EEST" duration-ms="145766" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -302,7 +302,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertFalse(Assert.java:78)
 at org.testng.Assert.assertFalse(Assert.java:88)
-at FirstTest.isPresentLorenIpsonTest(FirstTest.java:60)
+at FirstTest.isPresentLorenIpsonTest(FirstTest.java:61)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -324,27 +324,27 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPresentLorenIpsonTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:31:53 EET" name="tearDown" finished-at="2024-03-29T14:31:53 EET" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:49:08 EEST" name="tearDown" finished-at="2024-04-02T11:49:08 EEST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:31:53 EET" name="setUp" finished-at="2024-03-29T14:31:56 EET" duration-ms="2918" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:49:08 EEST" name="setUp" finished-at="2024-04-02T11:49:11 EEST" duration-ms="3176" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isPresentSearchPageTest()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:31:56 EET" name="isPresentSearchPageTest" finished-at="2024-03-29T14:31:59 EET" duration-ms="3182" status="PASS">
+        <test-method signature="isPresentSearchPageTest()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:49:11 EEST" name="isPresentSearchPageTest" finished-at="2024-04-02T11:49:15 EEST" duration-ms="3237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPresentSearchPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:31:59 EET" name="tearDown" finished-at="2024-03-29T14:31:59 EET" duration-ms="116" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:49:15 EEST" name="tearDown" finished-at="2024-04-02T11:49:15 EEST" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:31:59 EET" name="setUp" finished-at="2024-03-29T14:32:02 EET" duration-ms="3358" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:49:15 EEST" name="setUp" finished-at="2024-04-02T11:49:18 EEST" duration-ms="3230" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="isPresentValueAttributeAltImg()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:32:02 EET" name="isPresentValueAttributeAltImg" finished-at="2024-03-29T14:32:03 EET" duration-ms="1033" status="FAIL">
+        <test-method signature="isPresentValueAttributeAltImg()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:49:18 EEST" name="isPresentValueAttributeAltImg" finished-at="2024-04-02T11:49:19 EEST" duration-ms="1010" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -355,7 +355,7 @@ at org.testng.Assert.fail(Assert.java:110)
 at org.testng.Assert.failNotEquals(Assert.java:1577)
 at org.testng.Assert.assertTrue(Assert.java:56)
 at org.testng.Assert.assertTrue(Assert.java:66)
-at FirstTest.isPresentValueAttributeAltImg(FirstTest.java:52)
+at FirstTest.isPresentValueAttributeAltImg(FirstTest.java:53)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -377,11 +377,25 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- isPresentValueAttributeAltImg -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@16c8b7bd]" started-at="2024-03-29T14:32:03 EET" name="tearDown" finished-at="2024-03-29T14:32:04 EET" duration-ms="129" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FirstTest@3db64bd4]" started-at="2024-04-02T11:49:19 EEST" name="tearDown" finished-at="2024-04-02T11:49:19 EEST" duration-ms="200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- FirstTest -->
+      <class name="VisualTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:VisualTest@253b380a]" started-at="2024-04-02T11:44:05 EEST" name="setUp" finished-at="2024-04-02T11:44:08 EEST" duration-ms="3290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWebsiteLayout()[pri:0, instance:VisualTest@253b380a]" started-at="2024-04-02T11:44:08 EEST" name="testWebsiteLayout" finished-at="2024-04-02T11:44:09 EEST" duration-ms="1251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWebsiteLayout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:VisualTest@253b380a]" started-at="2024-04-02T11:44:09 EEST" name="tearDown" finished-at="2024-04-02T11:44:09 EEST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- VisualTest -->
     </test> <!-- Test1 -->
   </suite> <!-- Suite1 -->
 </testng-results>

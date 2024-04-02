@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 11, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 331.491 s <<< FAILURE! - in TestSuite
-FooterTest.isEnabledSiteMapTest  Time elapsed: 0.106 s  <<< FAILURE!
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 335.856 s <<< FAILURE! - in TestSuite
+FooterTest.isEnabledSiteMapTest  Time elapsed: 0.128 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: Site map link is not found
 	at pages.FooterPage.isEnabledSiteMap(FooterPage.java:55)
 	at FooterTest.isEnabledSiteMapTest(FooterTest.java:35)
@@ -22,14 +22,14 @@ org.openqa.selenium.NoSuchElementException: Site map link is not found
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'sitemap') or contains(text(),'Сайтмап') or contains(text(),'Sitemap')]"}
-  (Session info: chrome=123.0.6312.59)
+  (Session info: chrome=123.0.6312.86)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5a1f38b50b548e26be0955b12ab9eecd, findElement {using=xpath, value=//a[contains(@href,'sitemap') or contains(text(),'Сайтмап') or contains(text(),'Sitemap')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Aguka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49436}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49436/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5a1f38b50b548e26be0955b12ab9eecd
+Command: [04112621a076993ae30b9ddc539b8e50, findElement {using=xpath, value=//a[contains(@href,'sitemap') or contains(text(),'Сайтмап') or contains(text(),'Sitemap')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Aguka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51456}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51456/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 04112621a076993ae30b9ddc539b8e50
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -52,7 +52,7 @@ Session ID: 5a1f38b50b548e26be0955b12ab9eecd
 	at pages.FooterPage.isEnabledSiteMap(FooterPage.java:53)
 	... 16 more
 
-FooterTest.isEnabledTermsAndConditionsTest  Time elapsed: 0.04 s  <<< FAILURE!
+FooterTest.isEnabledTermsAndConditionsTest  Time elapsed: 0.058 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: Terms and conditions link is not found
 	at pages.FooterPage.isEnabledTermsAndConditions(FooterPage.java:46)
 	at FooterTest.isEnabledTermsAndConditionsTest(FooterTest.java:26)
@@ -72,14 +72,14 @@ org.openqa.selenium.NoSuchElementException: Terms and conditions link is not fou
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(@href,'terms-of-service') or contains(text(),'Умови користування веб-сайтом') or contains(text(),'Terms of Service')]"}
-  (Session info: chrome=123.0.6312.59)
+  (Session info: chrome=123.0.6312.86)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.10.0', revision: 'c14d967899'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d450bffb90db36bd890e813feab38b95, findElement {using=xpath, value=//a[contains(@href,'terms-of-service') or contains(text(),'Умови користування веб-сайтом') or contains(text(),'Terms of Service')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.59, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Aguka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49464}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49464/devtoo..., se:cdpVersion: 123.0.6312.59, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d450bffb90db36bd890e813feab38b95
+Command: [4593f3d5df4890b2780f061f768682b0, findElement {using=xpath, value=//a[contains(@href,'terms-of-service') or contains(text(),'Умови користування веб-сайтом') or contains(text(),'Terms of Service')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 123.0.6312.86, chrome: {chromedriverVersion: 123.0.6312.86 (9b72c47a0536..., userDataDir: C:\Users\Aguka\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51483}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51483/devtoo..., se:cdpVersion: 123.0.6312.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4593f3d5df4890b2780f061f768682b0
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -102,7 +102,7 @@ Session ID: d450bffb90db36bd890e813feab38b95
 	at pages.FooterPage.isEnabledTermsAndConditions(FooterPage.java:44)
 	... 16 more
 
-FirstTest.checkH1ShouldBeOneTest  Time elapsed: 130.596 s  <<< FAILURE!
+FirstTest.checkH1ShouldBeOneTest  Time elapsed: 136.177 s  <<< FAILURE!
 java.lang.AssertionError: 
 The following asserts failed:
 	Кількість тегів <h1> на сторінці https://piddubnyi.devocean.pro/#popup-menu не дорівнює одному expected [1] but found [2],
@@ -113,7 +113,7 @@ The following asserts failed:
 	Кількість тегів <h1> на сторінці https://piddubnyi.devocean.pro/blog не дорівнює одному expected [1] but found [0]
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-	at FirstTest.checkH1ShouldBeOneTest(FirstTest.java:37)
+	at FirstTest.checkH1ShouldBeOneTest(FirstTest.java:38)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -130,7 +130,7 @@ The following asserts failed:
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-FirstTest.isPresentContactUsPage  Time elapsed: 2.752 s  <<< FAILURE!
+FirstTest.isPresentContactUsPage  Time elapsed: 2.138 s  <<< FAILURE!
 java.lang.AssertionError: expected [vhvhj] but found [КОНТАКТИ]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
@@ -138,7 +138,7 @@ java.lang.AssertionError: expected [vhvhj] but found [КОНТАКТИ]
 	at org.testng.Assert.assertEquals(Assert.java:131)
 	at org.testng.Assert.assertEquals(Assert.java:655)
 	at org.testng.Assert.assertEquals(Assert.java:665)
-	at FirstTest.isPresentContactUsPage(FirstTest.java:69)
+	at FirstTest.isPresentContactUsPage(FirstTest.java:70)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -155,13 +155,13 @@ java.lang.AssertionError: expected [vhvhj] but found [КОНТАКТИ]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-FirstTest.isPresentLorenIpsonTest  Time elapsed: 144.345 s  <<< FAILURE!
+FirstTest.isPresentLorenIpsonTest  Time elapsed: 145.768 s  <<< FAILURE!
 java.lang.AssertionError: expected [false] but found [true]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertFalse(Assert.java:78)
 	at org.testng.Assert.assertFalse(Assert.java:88)
-	at FirstTest.isPresentLorenIpsonTest(FirstTest.java:60)
+	at FirstTest.isPresentLorenIpsonTest(FirstTest.java:61)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -178,13 +178,13 @@ java.lang.AssertionError: expected [false] but found [true]
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 
-FirstTest.isPresentValueAttributeAltImg  Time elapsed: 1.035 s  <<< FAILURE!
+FirstTest.isPresentValueAttributeAltImg  Time elapsed: 1.012 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 	at org.testng.Assert.fail(Assert.java:110)
 	at org.testng.Assert.failNotEquals(Assert.java:1577)
 	at org.testng.Assert.assertTrue(Assert.java:56)
 	at org.testng.Assert.assertTrue(Assert.java:66)
-	at FirstTest.isPresentValueAttributeAltImg(FirstTest.java:52)
+	at FirstTest.isPresentValueAttributeAltImg(FirstTest.java:53)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

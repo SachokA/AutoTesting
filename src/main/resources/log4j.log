@@ -1189,3 +1189,107 @@ java.net.SocketException: Connection reset
 [INFO ] 2024-04-02 10:21:08 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
 [INFO ] 2024-04-02 10:21:08 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
 [INFO ] 2024-04-02 10:21:14 HomePage:75 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
+[INFO ] 2024-04-02 11:43:45 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:43:45 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:43:46 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:43:46 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:43:52 FooterPage:34 :isEnabledPrivatePolicy - message:Checking element privacy policy is displayed
+[WARN ] 2024-04-02 11:43:53 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-04-02 11:43:53 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:43:53 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:43:53 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-04-02 11:43:56 FooterPage:52 :isEnabledSiteMap - message:Checking element site map is displayed
+[INFO ] 2024-04-02 11:43:57 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:43:57 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:43:59 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:01 FooterPage:43 :isEnabledTermsAndConditions - message:Checking element terms and conditions is displayed
+[INFO ] 2024-04-02 11:44:01 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:44:01 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:44:02 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:04 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:04 HomePage:75 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
+[INFO ] 2024-04-02 11:44:05 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:44:05 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:44:07 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:10 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:13 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:16 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:18 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:21 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:23 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:26 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:30 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:33 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:36 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:38 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:41 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:43 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:46 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:49 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:52 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:55 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:44:58 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:01 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:05 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:08 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:11 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:13 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:16 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:19 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:22 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:25 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:28 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:31 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:34 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:37 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:40 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:43 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:46 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:48 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:52 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:55 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:45:58 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:46:01 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:46:04 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:46:07 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:46:10 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:46:14 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:46:17 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:46:20 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:46:24 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-04-02 11:46:24 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:46:24 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:46:28 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:46:28 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:46:31 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-04-02 11:46:33 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-04-02 11:46:34 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:46:34 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:46:39 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:46:39 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:46:42 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-04-02 11:49:08 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:49:08 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:49:11 HomePage:109 :openSearchPage - message:Open search page
+[INFO ] 2024-04-02 11:49:13 HomePage:115 :isPresentSearchPage - message:Input search is enabled
+[INFO ] 2024-04-02 11:49:13 HomePage:109 :openSearchPage - message:Open search page
+[INFO ] 2024-04-02 11:49:15 HomePage:115 :isPresentSearchPage - message:Input search is enabled
+[INFO ] 2024-04-02 11:49:15 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 11:49:15 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 11:49:18 HomePage:86 :isAltValue - message:Getting all value from element with attribute ALT
+[INFO ] 2024-04-02 11:49:19 HomePage:95 :isImagContainsAltValue - message:Verify all imag contain alt value 
