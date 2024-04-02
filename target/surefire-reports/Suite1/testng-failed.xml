@@ -3,6 +3,16 @@
 <suite thread-count="2" parallel="classes" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="2" parallel="classes" name="Test1(failed)" verbose="0">
     <classes>
+      <class name="FirstTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="isPresentValueAttributeAltImg"/>
+          <include name="isPresentLorenIpsonTest"/>
+          <include name="setUp"/>
+          <include name="isPresentContactUsPage"/>
+          <include name="checkH1ShouldBeOneTest"/>
+        </methods>
+      </class> <!-- FirstTest -->
       <class name="FooterTest">
         <methods>
           <include name="tearDown"/>
@@ -11,16 +21,6 @@
           <include name="isEnabledTermsAndConditionsTest"/>
         </methods>
       </class> <!-- FooterTest -->
-      <class name="FirstTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="isPresentLorenIpsonTest"/>
-          <include name="isPresentValueAttributeAltImg"/>
-          <include name="setUp"/>
-          <include name="isPresentContactUsPage"/>
-          <include name="checkH1ShouldBeOneTest"/>
-        </methods>
-      </class> <!-- FirstTest -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite1] -->

@@ -50,7 +50,6 @@ public class HomePage extends BasePage {
     }
 
     public Set<String> getAllPageUrls() {
-//        String baseUrlRegex = baseUrl + "(?!.*add-to-cart)(?!.*blog-post-\\d+/)[^/]+/?$";
         log.info("Get all urls from home page");
         String baseUrlRegex = baseUrl + "(?!.*add-to-cart)(?!.*blog-post-)\\S+/?$";
         Set<String> allUrls = new HashSet<>();

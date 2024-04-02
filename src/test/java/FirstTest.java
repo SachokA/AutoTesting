@@ -60,6 +60,7 @@ public class FirstTest extends BaseTest {
     public void isPresentLorenIpsonTest() {
         HomePage homePage = new HomePage();
         Assert.assertFalse(homePage.isUrlsContainedLoremIpsum(homePage.getAllPageUrls()));
+
     }
 
     @Test
@@ -68,7 +69,7 @@ public class FirstTest extends BaseTest {
         ContactUsPage contactUsPage = new ContactUsPage();
         footerPage.clickElementContact();
 
-        Assert.assertEquals(contactUsPage.getTitleContactUs(), "vhvhj");
+        Assert.assertEquals(contactUsPage.getTitleContactUs(), "КОНТАКТИ");
     }
 
     @Feature("Search page")
