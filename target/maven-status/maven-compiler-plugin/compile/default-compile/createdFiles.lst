@@ -1,0 +1,5 @@
+enums\UrlsSite.class
+pages\BasePage.class
+pages\HomePage.class
+pages\ContactUsPage.class
+pages\FooterPage.class

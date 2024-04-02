@@ -1,0 +1,1191 @@
+[INFO ] 2024-03-28 15:20:25 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 15:20:25 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:20:25 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:20:30 HomePage:85 :isAltValue - message:Getting all value from element with attribute ALT
+[INFO ] 2024-03-28 15:20:31 HomePage:94 :isImagContainsAltValue - message:Verify all imag contain alt value 
+[WARN ] 2024-03-28 15:20:32 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 15:21:27 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 15:21:28 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:21:28 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:21:35 HomePage:85 :isAltValue - message:Getting all value from element with attribute ALT
+[INFO ] 2024-03-28 15:21:36 HomePage:94 :isImagContainsAltValue - message:Verify all imag contain alt value 
+[WARN ] 2024-03-28 15:21:36 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 15:28:40 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 15:28:41 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:28:41 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 15:28:45 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 15:29:32 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 15:29:32 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:29:32 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 15:29:39 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 15:30:12 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 15:30:13 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:30:13 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 15:30:20 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 15:36:25 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 15:36:26 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:36:26 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 15:36:34 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 15:37:40 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 15:37:40 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:37:40 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 15:37:47 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 15:38:18 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 15:38:18 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:38:18 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 15:38:25 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 15:47:18 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:47:18 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:47:22 HomePage:53 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-28 15:47:23 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:25 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:29 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:33 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:35 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:37 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:38 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:40 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:41 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:43 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:45 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:47 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:49 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:51 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:53 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:55 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:57 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:47:58 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:48:00 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:48:02 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-28 15:48:04 HomePage:68 :getCountH1inThePage - message:Count element H1 on the page
+[WARN ] 2024-03-28 15:48:06 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 15:48:06 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:48:06 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:48:09 HomePage:53 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-28 15:48:10 HomePage:53 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-28 15:48:11 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:48:11 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:48:14 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:48:14 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:48:18 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:48:18 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:48:21 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:48:21 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:48:24 HomePage:53 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-28 15:49:06 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:49:06 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:49:09 HomePage:74 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
+[INFO ] 2024-03-28 15:49:09 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:49:09 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:49:12 HomePage:108 :openSearchPage - message:Open search page
+[INFO ] 2024-03-28 15:49:13 HomePage:114 :isPresentSearchPage - message:Input search is enabled
+[INFO ] 2024-03-28 15:49:13 HomePage:108 :openSearchPage - message:Open search page
+[INFO ] 2024-03-28 15:49:14 HomePage:114 :isPresentSearchPage - message:Input search is enabled
+[INFO ] 2024-03-28 15:49:15 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 15:49:15 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 15:49:17 HomePage:85 :isAltValue - message:Getting all value from element with attribute ALT
+[INFO ] 2024-03-28 15:49:18 HomePage:94 :isImagContainsAltValue - message:Verify all imag contain alt value 
+[INFO ] 2024-03-28 16:03:32 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 16:03:32 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 16:03:32 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 16:03:41 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 16:06:32 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 16:06:33 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 16:06:33 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 16:06:41 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 16:52:25 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 16:52:26 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 16:52:26 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 16:52:37 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 16:52:54 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 16:52:54 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 16:52:54 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 16:54:18 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 16:54:18 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 16:54:18 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 16:54:34 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 16:54:34 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 16:54:34 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 16:54:59 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 16:55:00 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 16:55:00 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 16:55:06 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 17:00:24 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:00:24 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:00:24 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 17:00:33 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 17:00:45 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:00:45 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:00:45 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:01:04 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:01:04 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:01:05 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 17:01:09 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 17:01:20 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:01:20 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:01:20 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:01:42 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:01:43 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:01:43 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 17:01:49 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 17:05:19 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:05:19 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:05:19 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:05:50 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:05:50 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:05:50 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:06:09 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:06:10 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:06:10 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:06:27 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:06:27 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:06:27 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 17:06:38 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 17:24:41 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:24:42 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:24:42 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:25:17 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:25:18 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:25:18 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:25:44 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:25:45 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:25:45 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:26:08 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:26:08 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:26:08 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 17:26:17 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-28 17:26:32 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:26:32 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:26:32 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:41:44 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:42:57 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:42:58 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:42:58 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:46:18 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:46:19 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:46:19 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-28 17:55:24 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-28 17:55:25 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-28 17:55:25 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-28 17:55:35 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 09:50:19 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 09:50:21 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 09:50:21 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 09:51:52 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 09:51:52 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 09:51:53 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 09:52:23 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 09:52:23 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 09:52:23 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 09:52:36 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 09:53:01 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 09:53:01 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 09:53:01 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 09:53:30 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 09:53:30 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 09:53:30 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 09:53:37 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 09:53:54 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 09:53:55 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 09:53:55 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 09:54:08 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 09:54:33 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 09:54:33 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 09:54:33 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 10:24:15 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:24:16 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:24:16 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 10:24:31 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 10:25:45 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:25:45 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:25:45 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 10:25:57 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 10:30:46 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:30:46 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:30:46 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 10:30:58 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 10:31:21 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:31:22 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:31:22 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 10:31:53 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:31:54 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:31:54 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 10:32:04 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 10:32:21 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:32:21 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:32:21 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 10:32:41 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:32:42 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:32:42 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 10:33:08 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:33:09 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:33:09 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 10:40:10 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:40:11 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:40:11 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 10:40:19 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:821)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 10:56:18 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 10:56:20 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 10:56:21 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:16:51 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:16:52 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:16:52 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:17:02 HomePage:77 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
+[WARN ] 2024-03-29 11:17:03 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 11:23:53 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:23:54 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:23:54 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:23:58 HomePage:75 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
+[INFO ] 2024-03-29 11:24:45 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:24:46 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:24:46 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:24:50 HomePage:75 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
+[INFO ] 2024-03-29 11:25:42 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:25:42 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:25:42 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 11:25:55 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 11:26:04 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:26:04 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:26:04 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:26:10 HomePage:109 :openSearchPage - message:Open search page
+[INFO ] 2024-03-29 11:26:10 HomePage:115 :isPresentSearchPage - message:Input search is enabled
+[INFO ] 2024-03-29 11:26:21 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:26:22 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:26:22 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:27:04 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:27:04 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:27:04 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:27:09 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[WARN ] 2024-03-29 11:27:09 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 11:28:34 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:28:35 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:28:35 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:28:41 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 11:28:43 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:44 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:44 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:45 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:45 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:46 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:47 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:47 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:48 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:49 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:49 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:50 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:51 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:51 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:52 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:28:52 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 11:29:28 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:29:28 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:29:28 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:29:34 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 11:29:34 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[WARN ] 2024-03-29 11:29:35 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 11:30:40 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:30:41 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:30:41 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:30:46 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 11:30:47 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 11:32:35 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:32:35 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:32:35 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:32:40 HomePage:86 :isAltValue - message:Getting all value from element with attribute ALT
+[INFO ] 2024-03-29 11:32:42 HomePage:95 :isImagContainsAltValue - message:Verify all imag contain alt value 
+[WARN ] 2024-03-29 11:32:42 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 11:33:14 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:33:15 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:33:15 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:33:42 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:33:42 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:33:42 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:33:47 HomePage:109 :openSearchPage - message:Open search page
+[INFO ] 2024-03-29 11:33:47 HomePage:115 :isPresentSearchPage - message:Input search is enabled
+[WARN ] 2024-03-29 11:33:48 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 11:34:08 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:34:09 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:34:09 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:34:14 HomePage:75 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
+[INFO ] 2024-03-29 11:34:32 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:34:33 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:34:33 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:34:37 FooterPage:52 :isEnabledSiteMap - message:Checking element site map is displayed
+[INFO ] 2024-03-29 11:34:54 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:34:55 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:34:55 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:34:59 FooterPage:43 :isEnabledTermsAndConditions - message:Checking element terms and conditions is displayed
+[WARN ] 2024-03-29 11:35:00 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 11:35:11 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 11:35:11 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 11:35:11 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 11:35:16 FooterPage:34 :isEnabledPrivatePolicy - message:Checking element privacy policy is displayed
+[INFO ] 2024-03-29 14:25:08 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:08 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:08 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:08 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:13 FooterPage:34 :isEnabledPrivatePolicy - message:Checking element privacy policy is displayed
+[INFO ] 2024-03-29 14:25:13 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 14:25:14 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:14 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:15 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:15 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:17 FooterPage:52 :isEnabledSiteMap - message:Checking element site map is displayed
+[INFO ] 2024-03-29 14:25:18 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:18 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:18 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:18 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:20 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 14:25:20 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 14:25:20 FooterPage:43 :isEnabledTermsAndConditions - message:Checking element terms and conditions is displayed
+[INFO ] 2024-03-29 14:25:20 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:20 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:21 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:21 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:23 HomePage:75 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
+[INFO ] 2024-03-29 14:25:23 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:23 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:24 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 14:25:25 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:25 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:26 HomePage:109 :openSearchPage - message:Open search page
+[INFO ] 2024-03-29 14:25:27 HomePage:115 :isPresentSearchPage - message:Input search is enabled
+[INFO ] 2024-03-29 14:25:27 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:25:27 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:25:28 HomePage:86 :isAltValue - message:Getting all value from element with attribute ALT
+[INFO ] 2024-03-29 14:25:28 HomePage:95 :isImagContainsAltValue - message:Verify all imag contain alt value 
+[INFO ] 2024-03-29 14:26:34 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:26:34 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:26:34 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:26:34 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:26:42 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 14:26:43 FooterPage:34 :isEnabledPrivatePolicy - message:Checking element privacy policy is displayed
+[INFO ] 2024-03-29 14:26:43 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:26:43 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:26:47 FooterPage:52 :isEnabledSiteMap - message:Checking element site map is displayed
+[INFO ] 2024-03-29 14:26:47 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:26:47 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:26:48 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:26:51 FooterPage:43 :isEnabledTermsAndConditions - message:Checking element terms and conditions is displayed
+[INFO ] 2024-03-29 14:26:51 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:26:51 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:26:52 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:26:58 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:26:59 HomePage:75 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
+[INFO ] 2024-03-29 14:27:01 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:04 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:07 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:10 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:12 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:15 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:18 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:21 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:24 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:27 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:30 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:31 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:34 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:36 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:39 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:42 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:45 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:48 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:51 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:54 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:56 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:27:59 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:02 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:04 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:07 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:08 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:11 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:14 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:17 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:20 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:23 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:26 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:29 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:32 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:34 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:37 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:40 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:43 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:46 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:49 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:52 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:55 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:28:58 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:29:01 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:29:04 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:29:07 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:29:10 HomePage:69 :getCountH1inThePage - message:Count element H1 on the page
+[INFO ] 2024-03-29 14:29:10 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:29:10 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:29:13 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:29:13 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:29:16 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 14:29:18 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 14:29:19 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:29:19 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:29:25 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:29:25 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:29:28 HomePage:54 :getAllPageUrls - message:Get all urls from home page
+[INFO ] 2024-03-29 14:31:53 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:31:53 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:31:56 HomePage:109 :openSearchPage - message:Open search page
+[INFO ] 2024-03-29 14:31:57 HomePage:115 :isPresentSearchPage - message:Input search is enabled
+[INFO ] 2024-03-29 14:31:57 HomePage:109 :openSearchPage - message:Open search page
+[INFO ] 2024-03-29 14:31:59 HomePage:115 :isPresentSearchPage - message:Input search is enabled
+[INFO ] 2024-03-29 14:31:59 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:31:59 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:32:02 HomePage:86 :isAltValue - message:Getting all value from element with attribute ALT
+[INFO ] 2024-03-29 14:32:03 HomePage:95 :isImagContainsAltValue - message:Verify all imag contain alt value 
+[INFO ] 2024-03-29 14:36:08 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 14:36:09 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:36:09 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:38:10 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 14:38:10 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:38:10 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-03-29 14:38:46 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 14:38:47 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:38:47 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 14:38:54 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 14:39:28 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 14:39:29 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 14:39:29 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 14:39:35 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-03-29 15:05:27 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-03-29 15:05:28 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-03-29 15:05:28 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[WARN ] 2024-03-29 15:05:35 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-04-02 10:20:46 Utils:112 :info - message:[TestNG] Running:
+  C:\Users\Aguka\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+[INFO ] 2024-04-02 10:20:49 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 10:20:49 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 10:20:58 FooterPage:34 :isEnabledPrivatePolicy - message:Checking element privacy policy is displayed
+[WARN ] 2024-04-02 10:20:58 WebSocketHandler:142 :handleException - message:onError
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+[INFO ] 2024-04-02 10:20:58 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 10:20:58 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 10:21:03 FooterPage:52 :isEnabledSiteMap - message:Checking element site map is displayed
+[INFO ] 2024-04-02 10:21:03 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 10:21:03 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 10:21:08 FooterPage:43 :isEnabledTermsAndConditions - message:Checking element terms and conditions is displayed
+[INFO ] 2024-04-02 10:21:08 WebDriverManager:1239 :resolveDriverVersion - message:Using chromedriver 123.0.6312.86 (resolved driver for Chrome 123)
+[INFO ] 2024-04-02 10:21:08 WebDriverManager:1301 :exportDriver - message:Exporting webdriver.chrome.driver as C:\Users\Aguka\.cache\selenium\chromedriver\win64\123.0.6312.86\chromedriver.exe
+[INFO ] 2024-04-02 10:21:14 HomePage:75 :isEnabledInputSearchOnHomePage - message:Checking the input field is enabled on the home page
