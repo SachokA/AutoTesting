@@ -3,6 +3,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.logging.LogEntries;
+import org.openqa.selenium.logging.LogEntry;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import pages.BasePage;
@@ -15,8 +18,8 @@ public class BaseTest {
     @BeforeMethod
     public void setUp() {
         WebDriverManager.chromedriver().setup();
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--headless");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--headless");
         driver = new ChromeDriver();
         driver.get(BasePage.baseUrl);
         driver.manage().window().maximize();
@@ -31,6 +34,13 @@ public class BaseTest {
     @AfterMethod
     public void tearDown() {
         if (driver != null) {
+            // Get browser console logs
+            LogEntries logs = driver.manage().logs().get("browser");
+            for (LogEntry entry : logs) {
+                System.out.println("Console log: " + entry.getMessage());
+                // You can further process the log entries as needed
+            }
+
             driver.quit();
         }
     }

@@ -29,5 +29,9 @@ public class BasePage {
         WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
         wait.until(ExpectedConditions.visibilityOf(element));
     }
+
+    public static String getCurrentUrl() {
+        return getDriver().getCurrentUrl();
+    }
 }
 

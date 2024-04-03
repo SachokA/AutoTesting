@@ -86,6 +86,8 @@ public class FirstTest extends BaseTest {
         HomePage homePage = new HomePage();
         Assert.assertFalse(homePage.isHorizontalScrollBarPresent());
     }
+
+
 }
 
 
