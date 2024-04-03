@@ -11,7 +11,6 @@ public class ContactUsPage extends BasePage {
     public ContactUsPage() {
         PageFactory.initElements(getDriver(), this);
     }
-
     public String getTitleContactUs() {
         return elementTitleContactUs.getText();
     }
