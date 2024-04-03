@@ -2,3 +2,4 @@ FirstTest.class
 VisualTest.class
 FooterTest.class
 BaseTest.class
+RedirectFromHttpToHttpsTest.class

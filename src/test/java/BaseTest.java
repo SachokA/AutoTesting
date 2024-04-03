@@ -20,7 +20,7 @@ public class BaseTest {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless");
-        driver = new ChromeDriver();
+        driver = new ChromeDriver(options);
         driver.get(BasePage.baseUrl);
         driver.manage().window().maximize();
 //        driver.manage().window().setSize(new Dimension(390, 1000));

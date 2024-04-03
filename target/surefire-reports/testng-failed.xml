@@ -9,7 +9,6 @@
           <include name="isPresentValueAttributeAltImg"/>
           <include name="isPresentLorenIpsonTest"/>
           <include name="setUp"/>
-          <include name="isPresentContactUsPage"/>
           <include name="checkH1ShouldBeOneTest"/>
         </methods>
       </class> <!-- FirstTest -->
