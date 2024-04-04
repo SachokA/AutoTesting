@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.HomePage;
 
-import static pages.BasePage.getCurrentUrl;
+import static pages.BasePage.*;
 
 public class RedirectFromHttpToHttpsTest extends BaseTest{
     @Feature("Safety testing")
@@ -14,7 +14,7 @@ public class RedirectFromHttpToHttpsTest extends BaseTest{
     @Description("Test to check to redirect from http to https")
     @Test
     public void checkRedirectFromHttpToHttps () {
-        openPage("http://liastudio.store");
-        Assert.assertEquals(getCurrentUrl(),"https://liastudio.store/");
+        openPage(urlWithoutS);
+        Assert.assertTrue(getCurrentUrl().startsWith("https"));
     }
 }

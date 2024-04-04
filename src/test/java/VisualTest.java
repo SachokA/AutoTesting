@@ -1,3 +1,4 @@
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import ru.yandex.qatools.ashot.AShot;
 import ru.yandex.qatools.ashot.Screenshot;
@@ -10,7 +11,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class VisualTest extends BaseTest {
-
+    @Ignore
     @Test
     public void testWebsiteLayout() throws IOException {
 

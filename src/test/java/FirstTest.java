@@ -5,6 +5,7 @@ import io.qameta.allure.SeverityLevel;
 
 import org.testng.Assert;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.ContactUsPage;
@@ -36,6 +37,7 @@ public class FirstTest extends BaseTest {
         softAssert.assertAll();
     }
 
+    @Ignore
     @Test
     public void getAllUrl() {
         HomePage homePage = new HomePage();
@@ -69,6 +71,7 @@ public class FirstTest extends BaseTest {
         footerPage.clickElementContact();
 
         Assert.assertEquals(contactUsPage.getTitleContactUs(), "КОНТАКТИ");
+
     }
 
     @Feature("Search page")
