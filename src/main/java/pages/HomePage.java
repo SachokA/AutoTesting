@@ -46,6 +46,9 @@ public class HomePage extends BasePage {
         }
         return foundLoremIpsum;
     }
+    public boolean isLoremIpsumPresent() {
+        return getDriver().getPageSource().contains("Lorem Ipsum");
+    }
 
     public Set<String> getAllPageUrls() {
         log.info("Get all urls from home page");

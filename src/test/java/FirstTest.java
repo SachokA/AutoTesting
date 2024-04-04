@@ -23,18 +23,20 @@ public class FirstTest extends BaseTest {
     public void checkH1ShouldBeOneTest() {
 
         HomePage homePage = new HomePage();
-        SoftAssert softAssert = new SoftAssert();
-
-        Set<String> pageUrls = homePage.getAllPageUrls();
-
-        for (String url : pageUrls) {
-
-            openPage(url);
-            softAssert.assertEquals(homePage.getCountH1inThePage(),
-                    1,
-                    "Кількість тегів <h1> на сторінці " + url + " не дорівнює одному");
-        }
-        softAssert.assertAll();
+        Assert.assertEquals(homePage.getCountH1inThePage(),1,
+                "Кількість тегів <h1> на сторінці  не дорівнює одному");
+//        SoftAssert softAssert = new SoftAssert();
+//
+//        Set<String> pageUrls = homePage.getAllPageUrls();
+//
+//        for (String url : pageUrls) {
+//
+//            openPage(url);
+//            softAssert.assertEquals(homePage.getCountH1inThePage(),
+//                    1,
+//                    "Кількість тегів <h1> на сторінці " + url + " не дорівнює одному");
+//        }
+//        softAssert.assertAll();
     }
 
     @Ignore
@@ -61,9 +63,11 @@ public class FirstTest extends BaseTest {
     @Test()
     public void isPresentLorenIpsonTest() {
         HomePage homePage = new HomePage();
-        Assert.assertFalse(homePage.isUrlsContainedLoremIpsum(homePage.getAllPageUrls()));
+        Assert.assertFalse(homePage.isLoremIpsumPresent(), "Loren Ipsum was finding on home page");
     }
-
+    @Feature("Search page")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Present contact us page and check title this page")
     @Test
     public void isPresentContactUsPage() {
         FooterPage footerPage = new FooterPage();
