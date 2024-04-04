@@ -20,16 +20,14 @@ public class FirstTest extends BaseTest {
     @Description("Test to verify is H1 only one on the page")
     @Test
     public void checkH1ShouldBeOneTest() {
-        // Створюємо екземпляр домашньої сторінки
+
         HomePage homePage = new HomePage();
         SoftAssert softAssert = new SoftAssert();
 
-        // Отримуємо список посилань на сторінки сайту
         Set<String> pageUrls = homePage.getAllPageUrls();
 
-        // Перевіряємо кожну сторінку
         for (String url : pageUrls) {
-            // Відвідуємо сторінку
+
             openPage(url);
             softAssert.assertEquals(homePage.getCountH1inThePage(),
                     1,
@@ -45,7 +43,9 @@ public class FirstTest extends BaseTest {
         System.out.println(homePage.getAllPageUrls().size());
     }
 
-
+    @Feature("Checks that have be done on all pages")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Test to verify attribute Alt contains value")
     @Test
     public void isPresentValueAttributeAltImg() {
         HomePage homePage = new HomePage();
@@ -60,7 +60,6 @@ public class FirstTest extends BaseTest {
     public void isPresentLorenIpsonTest() {
         HomePage homePage = new HomePage();
         Assert.assertFalse(homePage.isUrlsContainedLoremIpsum(homePage.getAllPageUrls()));
-
     }
 
     @Test
@@ -73,14 +72,18 @@ public class FirstTest extends BaseTest {
     }
 
     @Feature("Search page")
+    @Severity(SeverityLevel.NORMAL)
     @Description("Test to verify is present search page")
     @Test
     public void isPresentSearchPageTest() {
         HomePage homePage = new HomePage();
         homePage.isPresentSearchPage();
+
         Assert.assertTrue(homePage.isPresentSearchPage(), "Input search is not enabled on this page");
     }
-
+    @Feature("Should not have horizontal scrollbar")
+    @Severity(SeverityLevel.NORMAL)
+    @Description("Checks should not have horizontal scrollbar")
     @Test
     public void checkShouldNotHaveHorizontalScrollbar() {
         HomePage homePage = new HomePage();

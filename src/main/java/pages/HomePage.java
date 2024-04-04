@@ -24,10 +24,8 @@ public class HomePage extends BasePage {
 
     @FindBy(tagName = "h1")
     List<WebElement> elementsH1;
-    @FindBy(tagName = "h2")
-    List<WebElement> elementsH2;
-    @FindBy(tagName = "h3")
-    List<WebElement> elementsH3;
+    @FindBy(xpath = "//h1 | //h2 | //h3 | //h4 | //h5 | //h6")
+    List<WebElement> elementsH;
     @FindBy(tagName = "img")
     List<WebElement> listElementImages;
 
@@ -128,6 +126,27 @@ public class HomePage extends BasePage {
         boolean isHorizontalScrollPresent = (Boolean) js.executeScript(
                 "return document.body.scrollWidth > document.body.clientWidth");
         return isHorizontalScrollPresent;
+    }
+
+    public boolean areHeadingsInSequentialOrder() {
+        String lastHeading = "";
+        for (WebElement heading : elementsH) {
+            String currentHeading = heading.getTagName();
+            if (currentHeading.compareToIgnoreCase(lastHeading) < 0) {
+                System.out.println("Headings are not in sequential order: " + lastHeading + " -> " + currentHeading);
+                return false;
+            }
+            lastHeading = currentHeading;
+        }
+        return true;
+    }
+
+    public List<String> getListH() {
+        List<String> list = new ArrayList<>();
+        for (WebElement item : elementsH) {
+            list.add(item.getTagName());
+        }
+        return list;
     }
 }
 
