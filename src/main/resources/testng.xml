@@ -4,7 +4,9 @@
         <classes>
             <class name="FirstTest"/>
             <class name="FooterTest"></class>
-            <class name="VisualTest"></class>
+            <class name="HeadingsTest"></class>
+            <class name="RedirectFromHttpToHttpsTest"></class>
+
 
         </classes>
     </test>
