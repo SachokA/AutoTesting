@@ -33,6 +33,16 @@ jobs:
       with:
         name: allure-results
         path: target/allure-results
+
+  allure-report:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download Allure Results
+      uses: actions/download-artifact@v2
+      with:
+        name: allure-results
+        path: target/allure-results
     - name: Generate Allure Report
       run: |
         allure generate --clean target/allure-results -o target/allure-report
@@ -41,19 +51,6 @@ jobs:
       with:
         name: allure-report
         path: target/allure-report
-
-  allure-report:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: Download Allure Report
-      uses: actions/download-artifact@v2
-      with:
-        name: allure-report
-        path: target/allure-report
-    - name: Generate Allure Report
-      run: |
-        allure generate --clean target/allure-results -o target/allure-report
 
   open-allure-report:
     needs: allure-report
