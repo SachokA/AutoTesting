@@ -36,6 +36,9 @@ jobs:
       with:
         name: allure-report
         path: allure-report
+    - name: Open Allure Report
+      run: |
+        allure-report serve allure-report
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
