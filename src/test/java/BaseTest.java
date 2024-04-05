@@ -40,7 +40,6 @@ public class BaseTest {
                 System.out.println("Console log: " + entry.getMessage());
                 // You can further process the log entries as needed
             }
-
             driver.quit();
         }
     }
