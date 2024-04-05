@@ -16,7 +16,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -29,16 +28,45 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Upload Allure Results
+      uses: actions/upload-artifact@v2
+      with:
+        name: allure-results
+        path: target/allure-results
     - name: Generate Allure Report
-      run: mvn io.qameta.allure:allure-maven:serve
+      run: |
+        allure generate --clean target/allure-results -o target/allure-report
     - name: Upload Allure Report
       uses: actions/upload-artifact@v2
       with:
         name: allure-report
-        path: target/allure-results
+        path: target/allure-report
+
+  allure-report:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download Allure Report
+      uses: actions/download-artifact@v2
+      with:
+        name: allure-report
+        path: target/allure-report
+    - name: Generate Allure Report
+      run: |
+        allure generate --clean target/allure-results -o target/allure-report
+
+  open-allure-report:
+    needs: allure-report
+    runs-on: ubuntu-latest
+    steps:
+    - name: Download Allure Report
+      uses: actions/download-artifact@v2
+      with:
+        name: allure-report
+        path: target/allure-report
     - name: Open Allure Report
       run: |
-        allure-report serve allure-report
+        allure open target/allure-report
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
     - name: Update dependency graph
